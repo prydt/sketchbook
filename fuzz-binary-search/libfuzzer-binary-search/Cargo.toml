@@ -7,3 +7,9 @@ edition = "2024"
 arbitrary = { version = "1", optional = true, features = ["derive"] }
 
 [dev-dependencies]
+
+[workspace]
+members = [
+  ".",
+  "fuzz"
+]

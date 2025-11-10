@@ -1,7 +1,7 @@
 #![no_main]
 
-use libfuzzer_sys::fuzz_target;
 use fuzz_binary_search::binary_search;
+use libfuzzer_sys::fuzz_target;
 
 fuzz_target!(|input: (i32, Vec<i32>)| {
     let (needle, haystack) = input;

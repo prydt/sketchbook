@@ -25,10 +25,10 @@ pub fn binary_search(needle: i32, haystack: Vec<i32>) -> Option<usize> {
 
 use proptest::prelude::*;
 
-#[warn(dead_code)]
+#[allow(dead_code)]
 fn needle_and_haystack() -> impl Strategy<Value = (i32, Vec<i32>)> {
     (
-        prop::num::i32::ANY,
+        0..100i32,
         proptest::collection::vec(prop::num::i32::ANY, 0..100),
     )
 }
