@@ -1,0 +1,9 @@
+[package]
+name = "fuzz-binary-search"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arbitrary = { version = "1", optional = true, features = ["derive"] }
+
+[dev-dependencies]

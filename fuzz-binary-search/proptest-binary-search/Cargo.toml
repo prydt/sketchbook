@@ -1,0 +1,9 @@
+[package]
+name = "proptest-binary-search"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+proptest = "1.9.0"
+
+[dev-dependencies]
