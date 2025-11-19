@@ -1,5 +1,5 @@
 # etudes
 
-Here's a bunch of random little experiments and practice code.
+My monorepo of experiments, practice, and other things that don't necessarily deserve their own repo.
 
--- pry
+I use `mise` to manage the dev environments for each project.
